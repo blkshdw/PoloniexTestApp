@@ -1,0 +1,6 @@
+framework module Pods_PoloniexTestApp {
+  umbrella header "Pods-PoloniexTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

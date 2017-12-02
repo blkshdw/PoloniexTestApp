@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoloniexTestApp/Model/RxAlamofire+ObjectMapper.swift"
+            timestampString = "533911927.909089"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "mapDictionary(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoloniexTestApp/Model/RxAlamofire+ObjectMapper.swift"
+            timestampString = "533911927.909615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "mapDictionary(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoloniexTestApp/Model/RxAlamofire+ObjectMapper.swift"
+            timestampString = "533911927.909976"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "mapDictionary(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoloniexTestApp/Model/DataManager.swift"
+            timestampString = "533914357.100249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "startUpdatingTickets()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, PoloniexTestApp.Ticket&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;PoloniexTestApp.TicketData&gt;&gt; in closure #1 (Swift.Int) -&gt; RxSwift.Observable&lt;Swift.Array&lt;PoloniexTestApp.TicketData&gt;&gt; in PoloniexTestApp.DataManager.startUpdatingTickets() -&gt; ()"
+                  moduleName = "PoloniexTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tetofa/PoloniexTestApp/PoloniexTestApp/Model/DataManager.swift"
+                  timestampString = "533911953.249644"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (key: Swift.String, value: PoloniexTestApp.Ticket) -&gt; PoloniexTestApp.TicketData in closure #1 (Swift.Dictionary&lt;Swift.String, PoloniexTestApp.Ticket&gt;) -&gt; RxSwift.Observable&lt;Swift.Array&lt;PoloniexTestApp.TicketData&gt;&gt; in closure #1 (Swift.Int) -&gt; RxSwift.Observable&lt;Swift.Array&lt;PoloniexTestApp.TicketData&gt;&gt; in PoloniexTestApp.DataManager.startUpdatingTickets() -&gt; ()"
+                  moduleName = "PoloniexTestApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tetofa/PoloniexTestApp/PoloniexTestApp/Model/DataManager.swift"
+                  timestampString = "533911953.252606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PoloniexTestApp/Model/Ticket.swift"
+            timestampString = "533914357.100468"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "mapping(map:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

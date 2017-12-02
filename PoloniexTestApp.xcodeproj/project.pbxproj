@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E31A957FBA3306B331608DD /* Pods_PoloniexTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3B9E9127BCEC0F6AA60D4 /* Pods_PoloniexTestApp.framework */; };
 		883002AC1FCEDD9A0037B5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883002AB1FCEDD9A0037B5B8 /* AppDelegate.swift */; };
-		883002AE1FCEDD9A0037B5B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883002AD1FCEDD9A0037B5B8 /* FirstViewController.swift */; };
-		883002B01FCEDD9A0037B5B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883002AF1FCEDD9A0037B5B8 /* SecondViewController.swift */; };
-		883002B31FCEDD9A0037B5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883002B11FCEDD9A0037B5B8 /* Main.storyboard */; };
 		883002B51FCEDD9A0037B5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883002B41FCEDD9A0037B5B8 /* Assets.xcassets */; };
 		883002B81FCEDD9A0037B5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883002B61FCEDD9A0037B5B8 /* LaunchScreen.storyboard */; };
+		885F95DD1FD18E5F00E84A28 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95DC1FD18E5F00E84A28 /* RootViewController.swift */; };
+		885F95DF1FD18F3F00E84A28 /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95DE1FD18F3F00E84A28 /* TicketsTableViewController.swift */; };
+		885F95E11FD1936700E84A28 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95E01FD1936700E84A28 /* DataManager.swift */; };
+		885F95E61FD1C3FA00E84A28 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95E51FD1C3FA00E84A28 /* Ticket.swift */; };
+		885F95E81FD1F70D00E84A28 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95E71FD1F70D00E84A28 /* EmptyViewController.swift */; };
+		885F95EA1FD1F7DD00E84A28 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95E91FD1F7DD00E84A28 /* TicketTableViewCell.swift */; };
+		885F95EC1FD212AD00E84A28 /* TicketBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95EB1FD212AD00E84A28 /* TicketBaseView.swift */; };
+		885F95EE1FD2160000E84A28 /* TicketsTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885F95ED1FD2160000E84A28 /* TicketsTableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		883002A81FCEDD990037B5B8 /* PoloniexTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoloniexTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883002AB1FCEDD9A0037B5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		883002AD1FCEDD9A0037B5B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		883002AF1FCEDD9A0037B5B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		883002B21FCEDD9A0037B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883002B41FCEDD9A0037B5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883002B71FCEDD9A0037B5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883002B91FCEDD9A0037B5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885F95DC1FD18E5F00E84A28 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		885F95DE1FD18F3F00E84A28 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
+		885F95E01FD1936700E84A28 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		885F95E51FD1C3FA00E84A28 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		885F95E71FD1F70D00E84A28 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		885F95E91FD1F7DD00E84A28 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		885F95EB1FD212AD00E84A28 /* TicketBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBaseView.swift; sourceTree = "<group>"; };
+		885F95ED1FD2160000E84A28 /* TicketsTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableHeaderView.swift; sourceTree = "<group>"; };
+		948B5361F9EF4D5E96D84F2A /* Pods-PoloniexTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoloniexTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PoloniexTestApp/Pods-PoloniexTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		96A3B9E9127BCEC0F6AA60D4 /* Pods_PoloniexTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoloniexTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D248E028106F9D257FB16577 /* Pods-PoloniexTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoloniexTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PoloniexTestApp/Pods-PoloniexTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E31A957FBA3306B331608DD /* Pods_PoloniexTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				883002AA1FCEDD990037B5B8 /* PoloniexTestApp */,
 				883002A91FCEDD990037B5B8 /* Products */,
+				E04AD45B087E52D3BA3F5687 /* Pods */,
+				8A906211C96957F4C2589447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,53 @@
 		883002AA1FCEDD990037B5B8 /* PoloniexTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				885F95F01FD2169600E84A28 /* Model */,
+				885F95EF1FD2168B00E84A28 /* UI */,
 				883002AB1FCEDD9A0037B5B8 /* AppDelegate.swift */,
-				883002AD1FCEDD9A0037B5B8 /* FirstViewController.swift */,
-				883002AF1FCEDD9A0037B5B8 /* SecondViewController.swift */,
-				883002B11FCEDD9A0037B5B8 /* Main.storyboard */,
 				883002B41FCEDD9A0037B5B8 /* Assets.xcassets */,
 				883002B61FCEDD9A0037B5B8 /* LaunchScreen.storyboard */,
 				883002B91FCEDD9A0037B5B8 /* Info.plist */,
 			);
 			path = PoloniexTestApp;
+			sourceTree = "<group>";
+		};
+		885F95EF1FD2168B00E84A28 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				885F95DC1FD18E5F00E84A28 /* RootViewController.swift */,
+				885F95DE1FD18F3F00E84A28 /* TicketsTableViewController.swift */,
+				885F95E71FD1F70D00E84A28 /* EmptyViewController.swift */,
+				885F95E91FD1F7DD00E84A28 /* TicketTableViewCell.swift */,
+				885F95EB1FD212AD00E84A28 /* TicketBaseView.swift */,
+				885F95ED1FD2160000E84A28 /* TicketsTableHeaderView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		885F95F01FD2169600E84A28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				885F95E01FD1936700E84A28 /* DataManager.swift */,
+				885F95E51FD1C3FA00E84A28 /* Ticket.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A906211C96957F4C2589447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A3B9E9127BCEC0F6AA60D4 /* Pods_PoloniexTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04AD45B087E52D3BA3F5687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D248E028106F9D257FB16577 /* Pods-PoloniexTestApp.debug.xcconfig */,
+				948B5361F9EF4D5E96D84F2A /* Pods-PoloniexTestApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 883002BC1FCEDD9A0037B5B8 /* Build configuration list for PBXNativeTarget "PoloniexTestApp" */;
 			buildPhases = (
+				549582D7F8FA7FDC455025F6 /* [CP] Check Pods Manifest.lock */,
 				883002A41FCEDD990037B5B8 /* Sources */,
 				883002A51FCEDD990037B5B8 /* Frameworks */,
 				883002A61FCEDD990037B5B8 /* Resources */,
+				F03ECACAE917E0DB292823F2 /* [CP] Embed Pods Frameworks */,
+				2D86E54062B987879640FD07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,34 +186,93 @@
 			files = (
 				883002B81FCEDD9A0037B5B8 /* LaunchScreen.storyboard in Resources */,
 				883002B51FCEDD9A0037B5B8 /* Assets.xcassets in Resources */,
-				883002B31FCEDD9A0037B5B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D86E54062B987879640FD07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoloniexTestApp/Pods-PoloniexTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549582D7F8FA7FDC455025F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoloniexTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03ECACAE917E0DB292823F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PoloniexTestApp/Pods-PoloniexTestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PoloniexTestApp/Pods-PoloniexTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		883002A41FCEDD990037B5B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883002B01FCEDD9A0037B5B8 /* SecondViewController.swift in Sources */,
+				885F95EE1FD2160000E84A28 /* TicketsTableHeaderView.swift in Sources */,
+				885F95DD1FD18E5F00E84A28 /* RootViewController.swift in Sources */,
+				885F95E61FD1C3FA00E84A28 /* Ticket.swift in Sources */,
+				885F95E11FD1936700E84A28 /* DataManager.swift in Sources */,
+				885F95EC1FD212AD00E84A28 /* TicketBaseView.swift in Sources */,
+				885F95EA1FD1F7DD00E84A28 /* TicketTableViewCell.swift in Sources */,
+				885F95DF1FD18F3F00E84A28 /* TicketsTableViewController.swift in Sources */,
+				885F95E81FD1F70D00E84A28 /* EmptyViewController.swift in Sources */,
 				883002AC1FCEDD9A0037B5B8 /* AppDelegate.swift in Sources */,
-				883002AE1FCEDD9A0037B5B8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		883002B11FCEDD9A0037B5B8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				883002B21FCEDD9A0037B5B8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		883002B61FCEDD9A0037B5B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,11 +393,13 @@
 		};
 		883002BD1FCEDD9A0037B5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D248E028106F9D257FB16577 /* Pods-PoloniexTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HLY3EQ26F;
 				INFOPLIST_FILE = PoloniexTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PoloniexTestApp.PoloniexTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +410,13 @@
 		};
 		883002BE1FCEDD9A0037B5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948B5361F9EF4D5E96D84F2A /* Pods-PoloniexTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HLY3EQ26F;
 				INFOPLIST_FILE = PoloniexTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PoloniexTestApp.PoloniexTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
